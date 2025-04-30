@@ -9,7 +9,7 @@ import log from "./logoff.svg";
 import profile from "./profile.png";
 
 function Header() {
-  const [loggedInUser, setLoggedInUser] = useState("");
+  const [ setLoggedInUser] = useState("");
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -49,5 +49,6 @@ function Header() {
     </div>
   );
 }
+
 
 export default Header;
