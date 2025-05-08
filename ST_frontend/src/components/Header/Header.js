@@ -9,7 +9,8 @@ import log from "./logoff.svg";
 import profile from "./profile.png";
 
 function Header() {
-  const [ setLoggedInUser] = useState("");
+  const [loggedInUser, setLoggedInUser] = useState("");
+
   const navigate = useNavigate();
 
   useEffect(() => {
